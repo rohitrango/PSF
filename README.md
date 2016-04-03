@@ -7,6 +7,7 @@
 	<li>clearScreen.py - dummy function for clearing terminal screen.</li>
 	<li>download.py - Downloads any file whose link is provided on terminal or stored in clipboard.</li>
 	<li>explosm-comic-downloader - Downloads latest comics from explosm.net. User enters number of downloads and folder name to download in.</li>
+	<li>2048-player - Opens the 2048 game and sends the UP, RIGHT, DOWN, LEFT keys. Not an effective way, but still fun :P </li>
 </ol>
 
 <a href="https://github.com/rohitrango">My GitHub</a><br>
