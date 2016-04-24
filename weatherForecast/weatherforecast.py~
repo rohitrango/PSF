@@ -2,12 +2,8 @@ import json, requests, sys, datetime
 
 cityName = raw_input("Enter city name.\n")
 
-f = open("APIKEY_weather.txt");
-api = f.readlines()
-api = api[0][:-1]
-
 #Didn't give my API ID for obvious reasons.
-link = "http://api.openweathermap.org/data/2.5/weather?q=%s&APPID=%s"%(cityName,api)
+link = "http://api.openweathermap.org/data/2.5/weather?q=%s&APPID={YOUR_API_ID}"%(cityName)
 try:
 	data = requests.get(link)
 
